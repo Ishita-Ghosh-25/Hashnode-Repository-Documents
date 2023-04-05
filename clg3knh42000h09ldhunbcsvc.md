@@ -39,32 +39,6 @@ To start with, you should have familiarity with one of the Java IDEs, which coul
 
 ### Writing First JUnit Test Case
 
-Let's say we have a simple class `Calculator` with two methods `add` and `subtract`. We want to write a test to make sure these methods are working correctly.
-
-```java
-import org.junit.Test;
-import static org.junit.Assert.*;
-
-public class CalculatorTest {
-
-  @Test
-  public void testAdd() {
-    Calculator calculator = new Calculator();
-    int result = calculator.add(2, 3);
-    assertEquals(5, result);
-  }
-
-  @Test
-  public void testSubtract() {
-    Calculator calculator = new Calculator();
-    int result = calculator.subtract(5, 3);
-    assertEquals(2, result);
-  }
-}
-```
-
-Sure! Here's a simple example of a JUnit test:
-
 Let's say we have a simple class `Calculator` with two methods `add` and `subtract`.
 
 ```java
